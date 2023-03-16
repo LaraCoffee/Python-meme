@@ -1,0 +1,21 @@
+#IMC
+
+peso = float(input("digite o seu peso: "))
+altura = float(input("digite sua altura"))
+
+imc = peso / (altura * altura)
+print(imc)
+if imc < 18.5 :
+    print("abaixo do peso")
+elif imc > 18.5 and imc < 24.9:
+    print("peso normal") 
+elif imc > 25.0 and imc < 29.9:
+    print("excesso de peso")
+elif imc > 30.0 and imc < 34.9:
+    print("obesidade tipo I")     
+elif imc > 35.0 and imc < 39.9:
+    print("obesidade tipo II")  
+elif imc > 40.0:
+    print("obesidade tipo III")
+    print("ai é GG ne irmão")
+           
