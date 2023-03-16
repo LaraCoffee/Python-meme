@@ -1,0 +1,16 @@
+#equilatero 3 lados iguais
+#escaleno 3 lados diferentes
+#isosceles 2 medidas iguais 
+
+lado1 = int(input("digite o primeiro lado do triangulo: "))
+lado2 = int(input("digite o segundo lado do tringulo: "))
+base = int(input("digite a base do triangulo: "))
+
+if base == lado1 and lado1 == lado2:
+    print("triangulo equilatero")
+elif lado1 == lado2 and lado1 != base: 
+    print("triangulo isósceles")
+elif lado1 != lado2 and lado2 != base:
+    print("triangulo escaleno")
+else:
+    print("não é triangulo")           
